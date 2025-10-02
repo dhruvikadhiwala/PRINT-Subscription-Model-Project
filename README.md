@@ -2,7 +2,7 @@
 This repository contains the deliverables, documentation, and analysis for the PRINT x UMD Capstone Project.
 The project focuses on developing data-driven subscription model recommendations for PRINT, a leading design publication, with the goal of maximizing acquisition, retention, and revenue while staying true to the brand’s mission of inclusivity and accessibility.
 
-# Project Overview
+## Project Overview
 - Client: PRINT Magazine
 - Goal: Recommend subscription structures (including premium tiers) informed by competitor analysis, baseline data, and scenario modeling.
 - Scope Includes:
@@ -13,38 +13,25 @@ The project focuses on developing data-driven subscription model recommendations
   - Visual dashboards for decision-making
 - Out of Scope: Editorial redesigns or technical payment system implementations
 
-# Project Goals
+## Project Goals
 - Develop a subscription model tailored to PRINT’s creative audience.
 - Ensure inclusivity and accessibility while maximizing revenue potential.
 - Provide clear deliverables: requirements, risk register, data analysis, and final recommendation report.
 
-# Repository Structure
-/docs/                      
-  ├── requirements.md                # Project requirements
-  ├── risk_register.md               # Risk log
-  ├── sprint_checkins/               # Sprint meeting notes + reflections
-  └── client_meeting_notes/          # Notes from client interactions
+## Repository Structure
+/docs        → requirements, risk register, sprint notes, meeting notes
+/data        → raw data, analytics exports, competitor pricing sheets
+/notebooks   → Jupyter notebooks (for analysis/ML models)
+/src         → scripts (e.g., Python, R, or JS code)
+/visuals     → charts, dashboards, visualizations
+README.md    → project overview
 
-/data/                      
-  ├── raw/                           # Raw data (competitor research, analytics exports)
-  └── processed/                     # Cleaned/organized datasets
-
-/presentations/             
-  └── sprint_reviews/                # Sprint review & client-facing decks
-
-/project_management/        
-  ├── gantt_chart.xlsx                # Timeline + milestones
-  ├── wbs.xlsx                        # Work breakdown structure
-  └── risk_management.xlsx            # Risk tracking
-
-README.md                             # This file
-
-# Sprint Context
+## Sprint Context
 - Sprint 1 (Sept 14 – Sept 28): Project kickoff, manifesto, templates, client meeting, requirements document.
 - Sprint 2 (Sept 29 – Oct 12): Data collection & planning → analytics access, competitor research, baseline audience data, repo setup.
 - Future Sprints: Subscription model design, analysis, and final recommendations.
 
-# Team Roles
+## Team Roles
 - Yohanes Kifle: Project Manager
 - Dhruvi Kadhiwala: Data/AI-ML Specialist
 - Maia Johnson: Data Analyst
