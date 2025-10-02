@@ -19,12 +19,12 @@ The project focuses on developing data-driven subscription model recommendations
 - Provide clear deliverables: requirements, risk register, data analysis, and final recommendation report.
 
 ## Repository Structure
-/docs        → requirements, risk register, sprint notes, meeting notes
-/data        → raw data, analytics exports, competitor pricing sheets
-/notebooks   → Jupyter notebooks (for analysis/ML models)
-/src         → scripts (e.g., Python, R, or JS code)
-/visuals     → charts, dashboards, visualizations
-README.md    → project overview
+- /docs        → requirements, risk register, sprint notes, meeting notes
+- /data        → raw data, analytics exports, competitor pricing sheets
+- /notebooks   → Jupyter notebooks (for analysis/ML models)
+- /src         → scripts (e.g., Python, R, or JS code)
+- /visuals     → charts, dashboards, visualizations
+- README.md    → project overview
 
 ## Sprint Context
 - Sprint 1 (Sept 14 – Sept 28): Project kickoff, manifesto, templates, client meeting, requirements document.
